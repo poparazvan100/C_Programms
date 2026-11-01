@@ -72,7 +72,9 @@ $RECYCLE.BIN/
 .DS_Store
 
 # --- Local application data -------------------------------------------------
-# Data files written by the app at runtime (accounts store, logs)
+# accounts.csv holds passwords in CLEARTEXT. It must never be committed.
+# Do not add a `!` exception for it.
+accounts.csv
+*.csv
 *.log
 data/
-*.csv
