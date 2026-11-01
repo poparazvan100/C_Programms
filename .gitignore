@@ -1,0 +1,78 @@
+# --- Build output -----------------------------------------------------------
+build/
+bin/
+obj/
+out/
+
+# Executables (MinGW g++ -o app.exe)
+*.exe
+*.out
+*.app
+
+# Object files / intermediates
+*.o
+*.obj
+*.lo
+*.slo
+*.gch
+*.pch
+*.d
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.la
+
+# Debug info
+*.pdb
+*.ilk
+*.idb
+*.dSYM/
+*.su
+*.stackdump
+
+# --- CMake ------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+compile_commands.json
+Testing/
+
+# --- Make -------------------------------------------------------------------
+Makefile
+!CMakeLists.txt
+
+# --- Editors / IDEs ---------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.swp
+*~
+
+# --- OS ---------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- Local application data -------------------------------------------------
+# Data files written by the app at runtime (accounts store, logs)
+*.log
+data/
+*.csv
